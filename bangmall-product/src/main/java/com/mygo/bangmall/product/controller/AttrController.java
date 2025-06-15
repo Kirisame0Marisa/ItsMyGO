@@ -57,7 +57,7 @@ public class AttrController {
    // @RequiresPermissions("product:attr:list")
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = attrService.queryPage(params);
-
+        int i = 0;
         return R.ok().put("page", page);
     }
 
