@@ -15,6 +15,10 @@
         <module>bangmall-order</module>
         <module>bangmall-product</module>
         <module>bangmall-ware</module>
+        <module>renren-fast</module>
+        <module>bangmall-common</module>
+        <module>renren-generator</module>
+        <module>renren-fastk</module>
     </modules>
     <url/>
     <licenses>
