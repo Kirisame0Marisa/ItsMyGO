@@ -32,7 +32,9 @@ public class OssController {
         // 从环境变量中获取访问凭证。运行本代码示例之前，请确保已设置环境变量OSS_ACCESS_KEY_ID和OSS_ACCESS_KEY_SECRET。
         //EnvironmentVariableCredentialsProvider credentialsProvider = CredentialsProviderFactory.newEnvironmentVariableCredentialsProvider();
         // Endpoint以华东1（杭州）为例，其他Region请按实际情况填写。
-
+        String accessId = "";
+        String accessKey = "";
+        String endpoint = "";
         // 填写Bucket名称，例如examplebucket。
         String bucket = "bangmall";
         // 填写Host名称，格式为https://bucketname.endpoint。
