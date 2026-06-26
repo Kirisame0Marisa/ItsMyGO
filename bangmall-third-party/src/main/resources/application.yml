@@ -6,7 +6,13 @@ spring:
   application:
     name: bangmall-third-party
 
-
+alibaba:
+  cloud:
+    access-key: ${ALIBABA_ACCESS_KEY:}
+    secret-key: ${ALIBABA_SECRET_KEY:}
+    oss:
+      endpoint: ${OSS_ENDPOINT:oss-cn-chengdu.aliyuncs.com}  #地域节点
+      bucket: ${OSS_BUCKET:bangmall}
 
 
 server:
